@@ -1,0 +1,28 @@
+.header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    margin: 0 auto;
+    max-width: 1170px; 
+    background: blueviolet;
+    .nav{
+        margin-top: 20px;
+        align-items: center;
+        .nav-ul{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .nav-li{
+                margin-left: 15px;
+                .nav-a{
+                    font-size: 25px;
+                    color: $color01;
+                }
+            }
+        }
+    }
+}
